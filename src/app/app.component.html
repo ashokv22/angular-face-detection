@@ -1,0 +1,34 @@
+<h1>Hello</h1>
+<!-- <video allFaces id="vid" width="480" height="360" autoplay></video> -->
+<!-- <canvas id="canvas" ></canvas> -->
+<div class="container">
+  <div class="c">
+    <!-- <div style="margin-left: auto; margin-right: auto; width: 720px; height: 480px; color: forestgreen; box-sizing: content-box; background-color: blue;"></div> -->
+    <!-- <p style="width: 720px; height: 480px; color: forestgreen;">Hello</p> -->
+    <video
+      id="vid"
+      autoplay
+      width="360"
+      height="280"
+      style="display: block;"
+    ></video>
+    <canvas id="canvas"></canvas>
+  </div>
+  <div class="c">
+    <h1>Data</h1>
+    <table>
+      <tr>
+        <td><p>Object name:</p></td>
+        <td>
+          <p id="data">{{ otype }}</p>
+        </td>
+      </tr>
+      <tr>
+        <td><p>Prediction score:</p></td>
+        <td>
+          <p id="data">{{ score }}</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+/* div {
+  text-align: center;
+} */
+.container {
+  display: flex;
+}
+
+.c {
+  flex: 1;
+}
+
+.c:first-child {
+  margin-left: 5%;
+}
